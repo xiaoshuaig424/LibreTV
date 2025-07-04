@@ -1,4 +1,5 @@
 // 全局变量
+localStorage.removeItem('selectedAPIs'); // 强制清空旧值
 let selectedAPIs = JSON.parse(localStorage.getItem('selectedAPIs') || '["tyyszy","dyttzy", "bfzy", "ruyi", "ffzy", "heimuer", "zy360", "iqiyi", "wolong", "hwba", "jisu", "dbzy", "mozhua", "mdzy", "zuid", "yinghua", "baidu", "wujin", "wwzy", "ikun"]'); // 默认选中资源
 let customAPIs = JSON.parse(localStorage.getItem('customAPIs') || '[]'); // 存储自定义API列表
 
